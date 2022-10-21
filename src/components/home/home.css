@@ -1,0 +1,100 @@
+.mainContainer {
+    padding: 20px;
+    width: 100%;
+    height: 85vh;
+}
+
+.homeContainer {
+    background-color: #b8ff65;
+    border-radius: 30px;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    padding: 10px 0;
+    height: 50vh;
+    position: relative;
+}
+
+.infoContainer {
+    max-width: 800px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f1f1f;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
+    max-width: 600px;
+}
+
+.description1, .description2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.description1 {
+    color: #1f1f1f80;
+    font-weight: 700;
+}
+
+.description2 a {
+    color: #1f1f1f;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*  PLANTAS */
+
+
+.plant1Container {
+    position: absolute;
+    left: -150px;
+    top: 80px;
+}
+
+.plant2Container {
+    position: absolute;
+    right: -80px;
+    top: -15px;
+}
+
+.plant1 {
+    width: 350px;
+}
+
+.plant2 {
+    width: 350px;
+}
+
+
+/* ARROW */
+.arrowDownContaienr {
+    width: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    position: relative;
+    top: -140px;
+}
+
+.arrowDown {
+    font-size: 30px;
+    cursor: pointer;
+}
