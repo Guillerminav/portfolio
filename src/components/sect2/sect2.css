@@ -1,0 +1,44 @@
+.sect2Container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #1f1f1f;
+}
+
+.proyectosTituloContainer {
+    width: 65%;
+    margin: auto;
+}
+
+.proyectosTitulo {
+    font-size: 50px;
+}
+
+.proyectosContainer {
+    width: 65%;
+    margin: auto;
+    border: solid 3px red;
+    height: 50vh;
+}
+
+.proyectosSlider {
+    display: flex;
+    border: solid 3px blue;
+    height: 100%;
+}
+
+.proyectoItem {
+    border: solid 3px green;
+    max-width: 250px;
+}
+.proyectoImg {
+    width: 200px;
+}
+
+.iconGithub {
+    color: #1f1f1f;
+    width: 40px;
+}

@@ -3,11 +3,13 @@ import './home.css'
 import plant1 from '../../assets/plant1.png'
 import plant2 from '../../assets/plant2.png'
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home = () => {
   return (
-    <div className="mainContainer">
+    <div className="mainContainer" id="home">
       <div className="homeContainer">
         <div className="infoContainer">
           <div className="titleContainer">
@@ -24,10 +26,10 @@ const Home = () => {
         </div>
         <div className="plantsContainer">
           <div className="plant1Container">
-            <img src={plant1} alt="" className="plant1" />
+            <FontAwesomeIcon icon={faCode} className="plant1" />
           </div>
           <div className="plant2Container">
-            <img src={plant2} alt="" className="plant2" />
+            <FontAwesomeIcon icon={faSeedling} className="plant2" />
           </div>
         </div>
       </div>

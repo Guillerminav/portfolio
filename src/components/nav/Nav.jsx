@@ -18,20 +18,17 @@ const Nav = () => {
     }
   }, [darkMode])
 
-
-
-
   return (
     <div>
-      <nav className="navContainer">
+      <nav className="navContainer" id="navegation">
         <div className="logo">
           <img src={logoDark} alt="logo" className="logoImg" />
-          <p className="logoP">guille</p>
+          <p className="logoP"></p>
       </div>
       <div className="navegationContainer">
         <ul className="navegation">
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Tecnologías</a></li>
+          <li><a href="#navegation">Inicio</a></li>
+          <li><a href="#sect1">Tecnologías</a></li>
           <li><a href="">Proyectos</a></li>
         </ul>
       </div>
