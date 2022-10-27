@@ -1,0 +1,28 @@
+[
+
+    {
+        "id": "01",
+        "title": "Ono",
+        "description": "Nutrición personalizada",
+        "github": "href",
+        "website": "href",
+        "img": "D:/OCTUBRE/portfolio/src/assets/cinearCaptura.png"
+    },
+    {
+        "id": "02",
+        "title": "CINEAR",
+        "description": "Plataforma de contenido audiovisual argentino.",
+        "github": "href",
+        "website": "href",
+        "img": "D:/OCTUBRE/portfolio/src/assets/cinearCaptura.png"
+    },
+    {
+        "id": "03",
+        "title": "CINEAR",
+        "description": "Plataforma de contenido audiovisual argentino.",
+        "github": "href",
+        "website": "href",
+        "img": "../../assets/cinearCaptura.png"
+    }
+
+]

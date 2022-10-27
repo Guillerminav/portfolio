@@ -20,7 +20,7 @@ const Home = () => {
               Junior Full-Stack Developer
             </p>
             <p className="description2">
-              ¡Hola! Soy una desarrolladora junior de Argentina. Impulsé mi carrera gracias al <a href="#">#ProyectoDalto</a>. Te invito a recorrer mi perfil y si algo te interesa no dudes en contactarme :)
+              ¡Hola! Soy una desarrolladora junior de Argentina. Impulsé mi carrera gracias al <a href="#">Proyecto Dalto</a>. Te invito a recorrer mi perfil y si algo te interesa no dudes en contactarme :)
             </p>
         </div>
         </div>

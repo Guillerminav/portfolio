@@ -5,6 +5,7 @@
     justify-content: center;
     width: 100%;
     gap: 30px;
+
 }
 
 .box1, .box2 {
@@ -36,13 +37,14 @@
 
 .box1 h2 {
     font-size: 50px;
+    font-weight: 600;
     color: #1f1f1f;
 }
 
 .box1 p {
     font-size: 20px;
     line-height: 30px;
-    color: #1f1f1f;
+    color: #1f1f1f99;
 
 }
 
@@ -99,6 +101,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.techIcon {
+    transition: .2s;
+}
+
+.techIcon:hover {
+    transform: scale(1.2);
 }
 
 @keyframes scrollRight {

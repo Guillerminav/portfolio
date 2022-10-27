@@ -19,33 +19,33 @@ const Nav = () => {
   }, [darkMode])
 
   return (
-    <div>
+    <div className="navCont">
       <nav className="navContainer" id="navegation">
         <div className="logo">
           <img src={logoDark} alt="logo" className="logoImg" />
           <p className="logoP"></p>
-      </div>
-      <div className="navegationContainer">
-        <ul className="navegation">
-          <li><a href="#navegation">Inicio</a></li>
-          <li><a href="#sect1">Tecnologías</a></li>
-          <li><a href="">Proyectos</a></li>
-        </ul>
-      </div>
-      <div className="personalize">
-        <div className="darkMode">
-          <button className="darkModeButton" onClick={() => setDarkMode(!darkMode)}>
-            <FontAwesomeIcon icon={faMoon} />
-          </button>
         </div>
-        <div className="languageOptions">
-          <label htmlFor="language"></label>
-          <select name="" id="language">
-            <option value="spa">Esp</option>
-            <option value="eng">Eng</option>
-          </select>
+        <div className="navegationContainer">
+          <ul className="navegation">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#tecnologias">Tecnologías</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+          </ul>
         </div>
-      </div>
+        <div className="personalize">
+          <div className="darkMode">
+            <button className="darkModeButton" onClick={() => setDarkMode(!darkMode)}>
+              <FontAwesomeIcon icon={faMoon} />
+            </button>
+          </div>
+          <div className="languageOptions">
+            <label htmlFor="language"></label>
+            <select name="" id="language">
+              <option value="spa">Esp</option>
+              <option value="eng">Eng</option>
+            </select>
+          </div>
+        </div>
       </nav>
     </div>
   )

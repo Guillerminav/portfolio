@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Sect1 = () => {
   return (
     <div>
-      <div className="sect1Container" id="sect1">
+      <div className="sect1Container" id="tecnologias">
         <div className="box1">
           <h2>Tecnologías</h2>
           <p>Mi stack incluye estas tecnologías pero siempre estoy aprendiendo algo nuevo.</p>
