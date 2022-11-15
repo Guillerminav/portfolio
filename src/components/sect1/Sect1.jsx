@@ -8,19 +8,23 @@ import nodeIcon from '../../assets/iconNode.png'
 import phpIcon from '../../assets/iconPhp.png'
 import { faComputer } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useInView } from 'react-intersection-observer'
 
 const Sect1 = () => {
+
+  const { ref: myRef, inView: myElementIsVisible } = useInView()
+
   return (
     <div>
       <div className="sect1Container" id="tecnologias">
-        <div className="box1">
+        <div className={`${"box1"} ${myElementIsVisible ? "animate_box1" : ""}`} ref={myRef}>
           <h2>Tecnologías</h2>
           <p>Mi stack incluye estas tecnologías pero siempre estoy aprendiendo algo nuevo.</p>
           <div className="computerIconContainer">
             <FontAwesomeIcon icon={faComputer} className="computerIcon" />
           </div>
         </div>
-        <div className="box2">
+        <div className={`${"box2"} ${myElementIsVisible ? "animate_box2" : ""}`} ref={myRef}>
           <div className="slide1">
             <div className="fila1">
               <div className="techContainer">

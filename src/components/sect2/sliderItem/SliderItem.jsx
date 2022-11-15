@@ -10,7 +10,7 @@ const SliderItem = (props) => {
   return (
       <div>
         <div className="proyectoItem">
-          <img src={props.img} alt="" />
+          <img src={props.img} alt="Imagen del proyecto" className="itemImg" />
           <div className="contentItem">
             <div className="tituloItemContainer">
             <p className="nroItem">{props.id}</p>
@@ -20,8 +20,8 @@ const SliderItem = (props) => {
             <p className="descriptionItem">{props.description}</p>
           </div>
           <div className="linksItemContainer">
-            <a href={props.github}><img src={githubIcon} alt="" className="iconGithub" /></a>
-            <a href={props.website} className="linkToWebsite">Website</a>
+            <a href={props.github} target="_blank" ><img src={githubIcon} alt="" className="iconGithub" /></a>
+            <a href={props.website} className="linkToWebsite" target="_blank" >Website</a>
           </div>
           </div>
         </div>
@@ -29,24 +29,4 @@ const SliderItem = (props) => {
   )
 }
 
-
 export default SliderItem
-
-
-
-
-
-{/* <div className="proyectoItem">
-          <img src={cinearCaptura} alt="" className="proyectoImg" />
-          <div className="tituloItemContainer">
-              <p className="nroItem">{props.id}</p>
-              <p className="tituloItem">{props.name}</p>
-          </div>
-          <div className="descriptionItemContainer">
-              <p className="descriptionItem">{props.description}</p>
-          </div>
-          <div className="linksItemContainer">
-              <a href={props.github}><img src={githubIcon} alt="" className="iconGithub" /></a>
-              <a href={props.website} className="linkToWebsite">Website</a>
-          </div>
-    </div>      */}

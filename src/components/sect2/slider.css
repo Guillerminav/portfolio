@@ -1,6 +1,4 @@
-
 .sliderContainer {
-    border: solid 3px coral;
     height: 100%;
     position: relative;
     width: 500px;
@@ -9,32 +7,34 @@
 .sliderTrack {
     display: flex;
     height: 350px;
-    gap: 20px;
-    border: solid 3px blue;
+    gap: 50px;
     position: relative;
     justify-content: center;
 }
 
 
 .flechasContainer {
-    position: absolute;
-    border: solid 3px red;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
 }
 
 .arrowLeft {
     color: #1f1f1f;
-    position: relative;
-    left: -100px;
+    position: absolute;
     font-size: 30px;
-    top: 90px;
     cursor: pointer;
+    top: -220px;
+    left: -240px;
 }
 
 .arrowRight {
     color: #1f1f1f;
-    position: relative;
+    position: absolute;
     font-size: 30px;
-    top: 90px;
-    left: 100px;
     cursor: pointer;
+    top: -220px;
+    right: -240px;
 }

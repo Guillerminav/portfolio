@@ -5,11 +5,11 @@ import logo from '../../assets/logoGuille.png'
 import logoDark from '../../assets/logoDark.png'
 import { faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
 
 const Nav = () => {
   const [darkMode, setDarkMode] = useState(false)
-
   useEffect(() => {
     if(darkMode) {
       document.body.classList.add("dark")

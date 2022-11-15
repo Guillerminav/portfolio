@@ -9,6 +9,7 @@
 .navCont {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .navContainer {
@@ -20,6 +21,7 @@
     padding: 30px 0;
     position: fixed;
     z-index: 900;    
+
 }
 
 .navegation {

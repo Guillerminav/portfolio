@@ -6,11 +6,15 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useInView } from 'react-intersection-observer'
 
 const Home = () => {
+
+  const { ref: myRef, inView: myElementIsVisible } = useInView()
+
   return (
     <div className="mainContainer" id="home">
-      <div className="homeContainer">
+      <div className={`${"homeContainer"} ${myElementIsVisible ? "animate" : ""}`} ref={myRef}>
         <div className="infoContainer">
           <div className="titleContainer">
           <h1 className="title">Guillermina Bousoño</h1>

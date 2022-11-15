@@ -20,6 +20,21 @@
     position: relative;
 }
 
+.animate {
+    animation: appear .5s;
+}
+
+@keyframes appear {
+    0% {
+        bottom: -20px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
 .infoContainer {
     max-width: 800px;
     height: 70%;
@@ -33,6 +48,7 @@
     font-size: 70px;
     font-weight: 700;
     color: #1f1f1f;
+    text-align: center;
 }
 
 .descriptionContainer {
