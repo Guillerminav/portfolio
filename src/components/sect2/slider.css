@@ -1,17 +1,16 @@
 .sliderContainer {
     height: 100%;
     position: relative;
-    width: 500px;
+    width: auto;
 }
 
 .sliderTrack {
     display: flex;
-    height: 350px;
+    height: 364px;
     gap: 50px;
     position: relative;
     justify-content: center;
 }
-
 
 .flechasContainer {
     position: relative;
@@ -37,4 +36,13 @@
     cursor: pointer;
     top: -220px;
     right: -240px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sliderTrack {
+        flex-direction: column;
+        height: 120vh;
+        align-items: center;
+        gap: 30px;
+    }
 }

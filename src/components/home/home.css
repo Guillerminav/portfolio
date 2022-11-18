@@ -7,7 +7,7 @@
 
 .homeContainer {   
     background-color: #8fe3cf;
-    border-radius: 30px;
+    border-radius: 12px;
     margin: auto;
     max-width: 1200px;
     display: flex;
@@ -80,7 +80,7 @@ background: linear-gradient(90deg, rgba(0,199,180,1) 0%, rgba(0,77,148,1) 100%);
     font-weight: 600;
 }
 
-/*  PLANTAS */
+/*  ICONOS */
 
 
 .plant1Container {

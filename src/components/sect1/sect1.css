@@ -5,13 +5,12 @@
     justify-content: center;
     width: 100%;
     gap: 30px;
-
 }
 
 .box1, .box2 {
     width: 580px;
     height: 580px;
-    border-radius: 30px;
+    border-radius: 12px;
 }
 
 .box1 {
@@ -37,7 +36,7 @@
 
 .box1 h2 {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
     color: #1f1f1f;
 }
 
@@ -59,8 +58,6 @@
 .slide1, .slide2 {
     overflow: hidden;
 }
-
-
 
 .fila1 {
     display: flex;

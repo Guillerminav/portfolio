@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px) {
+    .sect1Container {
+        flex-direction: column;
+    }
+
+    .box1, .box2 {
+        min-width: 200px;
+        min-height: 200px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .computerIcon {
+        font-size: 80px;
+        top: -250px;
+        right: 200px;
+        
+    }
+
+    .box1 h2 {
+        font-size: 28px;
+    }
+
+    .box1 p {
+        font-size: 18px;
+    }
+
+    .box2 {
+        gap: 25px;
+    }
+
+    .techContainer {
+        width: 100px;
+        height: 100px;
+    }
+
+    .techIcon {
+        width: 50px;
+    }
+
+    .fila1 {
+        width: calc(120px * 6);
+    }
+
+    .fila2 {
+        width: calc(120px * 6);
+    }
+}

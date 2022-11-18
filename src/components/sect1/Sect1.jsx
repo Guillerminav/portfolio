@@ -1,5 +1,7 @@
 import React from 'react'
+import { useRef } from 'react'
 import './sect1.css'
+import './sect1Responsive.css'
 import htmlIcon from '../../assets/iconHtml.png'
 import cssIcon from '../../assets/iconCss.png'
 import JSIcon from '../../assets/iconJS.png'
@@ -13,6 +15,7 @@ import { useInView } from 'react-intersection-observer'
 const Sect1 = () => {
 
   const { ref: myRef, inView: myElementIsVisible } = useInView()
+  const testRef = useRef(null)
 
   return (
     <div>

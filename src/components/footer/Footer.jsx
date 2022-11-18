@@ -1,6 +1,10 @@
-import './footer.css'
-
 import React from 'react'
+import './footer.css'
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+
+
+
 
 const Footer = () => {
     return (
@@ -12,9 +16,13 @@ const Footer = () => {
                     <li><a href="#proyectos">Proyectos</a></li>
                 </ul>
                 <div className="contactInfo">
-                    github
-                    mail
-                    linkedin
+                    <div className="infoLinks">
+                        <a href=""><FaGithub /></a>
+                        <a href=""><FaLinkedin /></a>
+                    </div>
+                    <div className="mailContainer">
+                        <p>guillerminabousono@gmail.com</p>
+                    </div>
                 </div>
             </div>
         </div>

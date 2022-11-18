@@ -4,7 +4,7 @@ export const ProyectosData = [
     {
         "id": "00",
         "title": "Ono",
-        "description": "Nutrición personalizada",
+        "description": "Landing sobre alimentación.",
         "github": "https://github.com/Guillerminav/Ono.git",
         "website": "https://ono-nutricion-personalizada.vercel.app/",
         "img": "https://i.ibb.co/BPt7rQk/ono-Captura.png"

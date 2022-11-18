@@ -19,7 +19,7 @@
     font-size: 50px;
     font-weight: 800;
     background: rgb(0,199,180);
-background: linear-gradient(90deg, rgba(0,199,180,1) 0%, rgba(0,77,148,1) 100%);
+    background: linear-gradient(90deg, rgba(0,199,180,1) 0%, rgba(0,77,148,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -37,6 +37,26 @@ background: linear-gradient(90deg, rgba(0,199,180,1) 0%, rgba(0,77,148,1) 100%);
 .proyectosSlider {
     display: flex;
     height: 100%;
-    gap: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .sect2Container {
+        width: 100%;
+        height: 100%;
+        gap: 150px;
+    }
+    .proyectosTitulo {
+        font-size: 36px;
+    }
+
+    .proyectosTituloContainer {
+        padding: 50px 0 5px 0;
+    }
+
+    .proyectosContainer {
+        width: 100%;
+        height: 150vh;
+    }
 }
 

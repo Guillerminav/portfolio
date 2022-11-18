@@ -11,7 +11,7 @@ const Sect2 = () => {
 
   return (
     <div>
-      <div className={`${"sect2Container"} ${myElementIsVisible ? "animate_box1" : ""}`} ref={myRef} id="#proyectos">
+      <div className={`${"sect2Container"} ${myElementIsVisible ? "animate_box1" : ""}`} ref={myRef} id="proyectos">
         <div className="proyectosTituloContainer">
           <h2 className="proyectosTitulo">Proyectos</h2>
         </div>
