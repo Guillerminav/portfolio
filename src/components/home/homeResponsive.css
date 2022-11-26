@@ -1,9 +1,15 @@
 @media only screen and (max-width: 768px) {
 
+    .mainContainer {
+        height: 100vh;
+        padding: 20vh 0 0 0;
+    }
+
     .homeContainer {
         max-width: 90vw;
         height: auto;
         padding: 20px 25px;
+        margin-top: 0;
     }
 
     .infoContainer{ 

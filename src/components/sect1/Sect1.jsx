@@ -45,9 +45,6 @@ const Sect1 = () => {
               <div className="techContainer">
                 <img src={nodeIcon} alt="html" className="techIcon" />
               </div>
-              <div className="techContainer">
-                <img src={phpIcon} alt="html" className="techIcon" />
-              </div>
             </div>
           </div>
           <div className="slide2">
@@ -66,9 +63,6 @@ const Sect1 = () => {
               </div>
               <div className="techContainer">
                 <img src={reactIcon} alt="html" className="techIcon" />
-              </div>
-              <div className="techContainer">
-                <img src={phpIcon} alt="html" className="techIcon" />
               </div>
             </div>
           </div>

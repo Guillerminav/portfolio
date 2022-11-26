@@ -16,7 +16,7 @@
     flex-direction: column;
     margin-top: 8vh;
     padding: 25px 0 0 0;
-    height: 50vh;
+    max-height: 60vh;
     position: relative;
 }
 
@@ -42,6 +42,7 @@
     flex-direction: column;
     align-items: center;
     color: #1f1f1f;
+    padding: 100px 0;
 }
 
 .title {
