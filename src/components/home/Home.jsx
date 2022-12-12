@@ -3,8 +3,7 @@ import { useRef } from 'react'
 import {Link} from 'react-scroll'
 import './home.css'
 import './homeResponsive.css'
-import plant1 from '../../assets/plant1.png'
-import plant2 from '../../assets/plant2.png'
+import '../../components/nav/dark.css'
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faSeedling } from "@fortawesome/free-solid-svg-icons";
@@ -26,7 +25,7 @@ const Home = () => {
           </div>
           <div className="descriptionContainer">
             <p className="description1">
-              Junior Full-Stack Developer
+              Trainee / Junior Full-Stack Developer
             </p>
             <p className="description2">
               ¡Hola! Soy una desarrolladora junior de Argentina. Impulsé mi carrera gracias al <a href="https://proyectodalto.com/" target="_blank" >Proyecto Dalto</a>. Te invito a recorrer mi perfil y si algo te interesa no dudes en contactarme :)

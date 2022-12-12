@@ -8,7 +8,7 @@
     .homeContainer {
         max-width: 90vw;
         height: auto;
-        padding: 20px 25px;
+        padding: 1rem;
         margin-top: 0;
     }
 
@@ -18,7 +18,7 @@
     }
 
     .title {
-        font-size: 40px;
+        font-size: 2rem;
         line-height: .9;
     }
 
@@ -29,8 +29,8 @@
     }
 
     .plant1Container {
-        left: -30px;
-        top: 300px;
+        left: -50px;
+        top: 340px;
     }
 
     .plant2Container {

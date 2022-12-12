@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import './dark.css'
 
 const BurgerButton = (props) => {
     return (
         <Burger>
             <div onClick={props.handleClick}
             className={`icon nav-icon-6 ${props.clicked ? 'open' : ""}`}>
-                <span></span>
-                <span></span>
-                <span></span>
+                <span className='line'></span>
+                <span className='line'></span>
+                <span className='line'></span>
             </div>   
         </Burger>
     )

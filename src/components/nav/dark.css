@@ -1,0 +1,26 @@
+.dark {
+    background-color: #1f1f1f;
+}
+
+.dark .navegation li a {
+    color: #f1f1f1;
+
+}
+
+.dark .line {
+    border: solid 2px #f3f3f3;
+}
+
+.dark .plant1 {
+    color: #f3f3f390;
+}
+
+.dark .plant2 {
+    color: #f3f3f390;
+}
+
+.dark .proyectoItem {
+    background-color: #f3f3f3;
+}
+
+

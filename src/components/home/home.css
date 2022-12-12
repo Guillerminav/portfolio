@@ -7,15 +7,16 @@
 
 .homeContainer {   
     background-color: #8fe3cf;
-    border-radius: 12px;
+    border-radius: 30px;
     margin: auto;
+    width: 80%;
     max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 8vh;
-    padding: 25px 0 0 0;
+    padding: 1rem;
     max-height: 60vh;
     position: relative;
 }

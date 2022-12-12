@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './sliderItem.css'
 import githubIcon from '../../../assets/iconGithub.png'
-import { useState } from 'react'
+import '../../nav/dark.css'
 
 
 
