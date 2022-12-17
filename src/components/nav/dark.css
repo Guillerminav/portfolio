@@ -2,9 +2,12 @@
     background-color: #1f1f1f;
 }
 
-.dark .navegation li a {
+.dark .navegation .navItem {
     color: #f1f1f1;
+}
 
+.dark .navegation .navItem:hover {
+    color: #f1f1f190;
 }
 
 .dark .line {
@@ -12,15 +15,21 @@
 }
 
 .dark .plant1 {
-    color: #f3f3f390;
+    color: #4f4f4f;
 }
 
 .dark .plant2 {
-    color: #f3f3f390;
+    color: #4f4f4f;
 }
 
 .dark .proyectoItem {
     background-color: #f3f3f3;
 }
 
+.dark .computerIcon {
+    color: #4f4f4f;
+}
 
+.dark .footerContainer {
+    background-color: #2f2f2f;
+}

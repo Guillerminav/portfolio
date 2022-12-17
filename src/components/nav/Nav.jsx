@@ -34,9 +34,9 @@ const Nav = () => {
         </div>
         <div className="navegationContainer">
           <ul className={`navegation ${clicked ? "active" : ""}`}>
-            <li><Link to="home" smooth={true}><a href="#home">Inicio</a></Link></li>
-            <li><Link to="tecnologias" smooth={true}><a href="#tecnologias">Tecnologías</a></Link></li>
-            <li><Link to="proyectos" smooth={true}><a href="#proyectos">Proyectos</a></Link></li>
+            <li><Link to="home" smooth={true}><a href="#home" className="navItem">Inicio</a></Link></li>
+            <li><Link to="tecnologias" smooth={true}><a href="#tecnologias" className="navItem">Tecnologías</a></Link></li>
+            <li><Link to="proyectos" smooth={true}><a href="#proyectos" className="navItem">Proyectos</a></Link></li>
           </ul>
         </div>
         <div className={`personalize ${clicked ? "active" : ""}`}>
