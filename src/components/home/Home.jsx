@@ -25,7 +25,7 @@ const Home = () => {
           </div>
           <div className="descriptionContainer">
             <p className="description1">
-              Trainee / Junior Full-Stack Developer
+              Trainee / Junior Front-End Developer
             </p>
             <p className="description2">
               ¡Hola! Soy una desarrolladora junior de Argentina. Impulsé mi carrera gracias al <a href="https://proyectodalto.com/" target="_blank" >Proyecto Dalto</a>. Te invito a recorrer mi perfil y si algo te interesa no dudes en contactarme :)
