@@ -12,6 +12,9 @@
     display: flex;
     list-style: none;
     gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .menuAgain a {
