@@ -4,7 +4,7 @@ export const ProyectosData = [
     {
         "id": "00",
         "title": "Ono",
-        "description": "Landing sobre alimentación.",
+        "description": "Copia de landing creado por Zeus Jones.",
         "github": "https://github.com/Guillerminav/Ono.git",
         "website": "https://ono-nutricion-personalizada.vercel.app/",
         "img": "https://i.ibb.co/BPt7rQk/ono-Captura.png"
@@ -12,17 +12,17 @@ export const ProyectosData = [
     {
         "id": "01",
         "title": "CINEAR",
-        "description": "Plataforma de contenido audiovisual argentino.",
+        "description": "Plataforma de contenido audiovisual argentino. [Práctica]",
         "github": "https://github.com/Guillerminav/cinear.git",
         "website": "https://nietflix.vercel.app/",
         "img": "https://i.ibb.co/26Pt4jZ/cinear-Captura.png"
     },
     {
         "id": "02",
-        "title": "CINEAR",
-        "description": "Plataforma de contenido audiovisual argentino.",
-        "github": "href",
-        "website": "href",
-        "img": "../../assets/cinearCaptura.png"
+        "title": "VIGAN",
+        "description": "E-commerce para emprendimiento de alimentación basada en plantas",
+        "github": "https://github.com/Guillerminav/NodeEcommerce",
+        "website": "https://vigan.onrender.com/",
+        "img": "https://i.ibb.co/yqQsfRK/captura-vigan.png"
     }
 ]

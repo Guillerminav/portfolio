@@ -33,3 +33,11 @@
 .dark .footerContainer {
     background-color: #2f2f2f;
 }
+
+.dark .cert-titulo-container p {
+    color: #f1f1f190;
+}
+
+.dark .cert-item {
+    background-color: #f1f1f1;
+}

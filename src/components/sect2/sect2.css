@@ -12,11 +12,11 @@
 .proyectosTituloContainer {
     padding-top: 120px;
     text-align: start;
-    width: 80%;
+    width: 60%;
 }
 
 .proyectosTitulo {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 800;
     background: rgb(0,199,180);
     background: linear-gradient(90deg, rgba(0,199,180,1) 0%, rgba(0,77,148,1) 100%);

@@ -5,6 +5,7 @@ import Home from './components/home/Home'
 import Sect1 from './components/sect1/Sect1'
 import Sect2 from './components/sect2/Sect2'
 import Footer from './components/footer/Footer'
+import Certificaciones from './components/sect3/Certificaciones'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <Sect1 />
       <Sect2 />
+      <Certificaciones />
       <Footer />
     </div>
   )
