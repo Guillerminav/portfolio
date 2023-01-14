@@ -13,8 +13,8 @@
     height: 30vh;
     display: flex;
     align-items: center;
-    text-align: start;
-    width: 60%;
+    text-align: flex-start;
+    width: 850px;
 }
 
 .proyectosTitulo {
@@ -53,8 +53,10 @@
     }
 
     .proyectosTituloContainer {
-        padding: 50px 0 5px 0;
+        padding: 0 0 0 60px;
+        max-width: 100vw;
     }
+
 
     .proyectosContainer {
         width: 100%;
