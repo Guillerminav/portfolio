@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .cert-content-container {
@@ -74,6 +75,15 @@
     font-weight: 500;
 }
 
+
+.resume-container a {
+    text-decoration: none;
+    color: #f1f1f1;
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    border-radius: 16px;
+    font-weight: 500;
+}
 
 
 @media only screen and (max-width: 768px) {
