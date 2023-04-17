@@ -129,3 +129,16 @@ background: linear-gradient(90deg, rgba(0,199,180,1) 0%, rgba(0,77,148,1) 100%);
 .arrowDown:hover {
     transform: scale(1.3);
 }
+
+.btn-container button {
+    padding: 1rem;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}

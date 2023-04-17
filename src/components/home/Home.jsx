@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useRef } from 'react'
 import {Link} from 'react-scroll'
 import './home.css'
@@ -14,7 +14,15 @@ const Home = () => {
 
   const { ref: myRef, inView: myElementIsVisible } = useInView()
 
+  const [nroActual, setNroActual] = useState(0)
 
+  const addNumber = () => {
+    setNroActual(nroActual + 1)
+  }
+
+  const reset = () => {
+    setNroActual(0)
+  }
 
   return (
     <div className="mainContainer" id="home">

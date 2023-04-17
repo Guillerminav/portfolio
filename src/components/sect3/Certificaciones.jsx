@@ -51,7 +51,7 @@ const Certificaciones = () => {
                 </div>
             </div>
             <div className="resume-container">
-                <a href="https://www.dropbox.com/s/amdopj5lnkrqd0y/GuilleBouso%C3%B1oCV.pdf?dl=0" target="_blank">Descargar CV</a>
+                <a href="https://www.dropbox.com/s/ytu3yd3ygh2026e/CV-Bouso%C3%B1o-Eng.pdf?dl=0" target="_blank">Descargar CV</a>
             </div>
         </div>
     )

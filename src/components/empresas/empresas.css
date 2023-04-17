@@ -1,0 +1,50 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 20vh;
+    margin: 3rem auto 0 auto;
+}
+
+.title-container {
+    width: 76%;
+    align-self: flex-start;
+    margin: auto;
+}
+
+h1 {
+    text-align: start;
+    font-size: 3rem;
+    font-weight: 800;
+    background: rgb(0,199,180);
+    background: linear-gradient(90deg, rgba(0,199,180,1) 0%, rgba(0,77,148,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    max-width: 8rem;
+}
+
+.empresas-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    gap: 5rem;
+}
+
+.empresas-logos img:hover{
+    transform: translateY(-5px);
+}
+
+@media only screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+
+
+}
