@@ -11,20 +11,20 @@ export const ProyectosData = [
     },
     {
         "id": "01",
-        "title": "CINEAR",
-        "description": "Plataforma de contenido audiovisual argentino. [En desarrollo]",
-        "github": "https://github.com/Guillerminav/cinear.git",
-        "website": "https://nietflix.vercel.app/",
-        "img": "https://i.ibb.co/26Pt4jZ/cinear-Captura.png",
-        "date": "old"
-    },
-    {
-        "id": "02",
         "title": "VIGAN",
         "description": "E-commerce para emprendimiento de alimentación basada en plantas. [En desarrollo]",
         "github": "https://github.com/Guillerminav/NodeEcommerce",
         "website": "https://vigan.onrender.com/",
         "img": "https://i.ibb.co/yqQsfRK/captura-vigan.png",
+        "date": "new"
+    },
+    {
+        "id": "02",
+        "title": "Pandas",
+        "description": "Trabajo práctico para la materia Programacion II",
+        "github": "",
+        "website": "https://colab.research.google.com/drive/1JEcnhUDnZ7L5LE8weiAtrvSPX3eoE3lE?usp=sharing",
+        "img": "",
         "date": "new"
     }
 ]

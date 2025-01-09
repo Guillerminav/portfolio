@@ -20,6 +20,11 @@ const Certificaciones = () => {
                 </div>
                 <div className="cert-items">
                     <div className="cert-item">
+                        <h3>Tecnicatura Universitaria en Inteligencia Artificial</h3>
+                        <p>Universidad Nacional de Rosario</p>
+                        <p className="fechas">feb 2023 - en curso</p>
+                    </div>
+                    <div className="cert-item">
                         <h3>Traductorado en Inglés</h3>
                         <p>Traductorado literario y técnico-científico en inglés.</p>
                         <p className="fechas">mar 2018 - incompleto</p>
@@ -51,7 +56,7 @@ const Certificaciones = () => {
                 </div>
             </div>
             <div className="resume-container">
-                <a href="https://www.dropbox.com/s/ytu3yd3ygh2026e/CV-Bouso%C3%B1o-Eng.pdf?dl=0" target="_blank">Descargar CV</a>
+                <a href="" target="_blank">Descargar CV</a>
             </div>
         </div>
     )

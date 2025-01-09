@@ -18,13 +18,13 @@ const Sect2 = () => {
           <div class="card_outer">
             <div class="card">
               <div class="content">
-                <h2 class="title2">CINEAR</h2>
-                <p class="copy">Plataforma de contenido audiovisual argentino. [En desarrollo]</p>
+                <h2 class="title2">Pandas TP</h2>
+                <p class="copy">Trabajo práctico para la materia Programacion II</p>
                 <div className="btns">
-                  <a class="btn" target="_blank" href="https://nietflix.vercel.app/">Sitio web</a>
-                  <a class="btn" target="_blank" href="https://github.com/Guillerminav/cinear">GitHub</a>
+                  <a class="btn" target="_blank" href="https://colab.research.google.com/drive/1JEcnhUDnZ7L5LE8weiAtrvSPX3eoE3lE?usp=sharing">Acceso a Google Colab</a>
                 </div>
               </div>
+              
             </div>
             <div class="card">
               <div class="content">
@@ -45,18 +45,9 @@ const Sect2 = () => {
                   <a class="btn" target="_blank" href="https://github.com/Guillerminav/NodeEcommerce" >GitHub</a>
                 </div>
               </div>
+              
             </div>
-            <div class="card" id="mobile">
-              <div class="content">
-                <h2 class="title2">Invitación de cumpleaños</h2>
-                <p className="mobileOnly">MOBILE ONLY</p>
-                <p class="copy" id="mobile">Invitación de cumpleaños interactiva con Google Spreadsheet integrado para recibir respuestas del form.</p>
-                <div className="btns">
-                  <a class="btn" href="https://15-renata.vercel.app/" target="_blank" >Sitio web</a>
-                  <a class="btn" href="https://github.com/Guillerminav/birthday-invitation" target="_blank">GitHub</a>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </section>
     </div>

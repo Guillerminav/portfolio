@@ -9,6 +9,7 @@ import JSIcon from '../../assets/iconJS.png'
 import reactIcon from '../../assets/iconReact.png'
 import nodeIcon from '../../assets/iconNode.png'
 import phpIcon from '../../assets/iconPhp.png'
+import pyIcon from '../../assets/python-logo-only.png'
 import { faComputer } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useInView } from 'react-intersection-observer'
@@ -44,7 +45,7 @@ const Sect1 = () => {
                 <img src={reactIcon} alt="html" className="techIcon" />
               </div>
               <div className="techContainer">
-                <img src={nodeIcon} alt="html" className="techIcon" />
+                <img src={pyIcon} alt="html" className="techIcon" />
               </div>
             </div>
           </div>
@@ -60,7 +61,7 @@ const Sect1 = () => {
                 <img src={htmlIcon} alt="html" className="techIcon" />
               </div>
               <div className="techContainer">
-                <img src={nodeIcon} alt="html" className="techIcon" />
+                <img src={pyIcon} alt="html" className="techIcon" />
               </div>
               <div className="techContainer">
                 <img src={reactIcon} alt="html" className="techIcon" />

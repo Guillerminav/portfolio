@@ -33,10 +33,10 @@ const Home = () => {
           </div>
           <div className="descriptionContainer">
             <p className="description1">
-              Trainee / Junior Front-End Developer
+              RPA Developer | AI Student
             </p>
             <p className="description2">
-              ¡Hola! Soy una desarrolladora junior de Argentina. Te invito a recorrer mi perfil y si algo te interesa no dudes en contactarme :)
+              ¡Hola! Soy una desarrolladora de Argentina. Te invito a recorrer mi perfil y si algo te interesa no dudes en contactarme :)
             </p>
         </div>
         </div>
